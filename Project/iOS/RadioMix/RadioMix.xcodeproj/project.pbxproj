@@ -16,6 +16,8 @@
 		8870A5911BDA3DC100C2BE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8870A58F1BDA3DC100C2BE1A /* LaunchScreen.storyboard */; };
 		8870A59C1BDA3DC100C2BE1A /* RadioMixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A59B1BDA3DC100C2BE1A /* RadioMixTests.swift */; };
 		8870A5A71BDA3DC100C2BE1A /* RadioMixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A5A61BDA3DC100C2BE1A /* RadioMixUITests.swift */; };
+		88C983B11BDA46BF0051F533 /* RMRadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C983B01BDA46BF0051F533 /* RMRadioView.swift */; settings = {ASSET_TAGS = (); }; };
+		88C983B31BDA46CB0051F533 /* RMRadioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C983B21BDA46CB0051F533 /* RMRadioView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		8870A5A21BDA3DC100C2BE1A /* RadioMixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioMixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8870A5A61BDA3DC100C2BE1A /* RadioMixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioMixUITests.swift; sourceTree = "<group>"; };
 		8870A5A81BDA3DC100C2BE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C983B01BDA46BF0051F533 /* RMRadioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMRadioView.swift; sourceTree = "<group>"; };
+		88C983B21BDA46CB0051F533 /* RMRadioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMRadioView.xib; sourceTree = "<group>"; };
 		EDC686409DCD9C73B191B07D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +127,7 @@
 		8870A5821BDA3DC100C2BE1A /* RadioMix */ = {
 			isa = PBXGroup;
 			children = (
+				88C983AF1BDA46AD0051F533 /* RadioView */,
 				8870A5831BDA3DC100C2BE1A /* AppDelegate.swift */,
 				8870A5851BDA3DC100C2BE1A /* ViewController.swift */,
 				8870A5871BDA3DC100C2BE1A /* Main.storyboard */,
@@ -150,6 +155,15 @@
 				8870A5A81BDA3DC100C2BE1A /* Info.plist */,
 			);
 			path = RadioMixUITests;
+			sourceTree = "<group>";
+		};
+		88C983AF1BDA46AD0051F533 /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				88C983B01BDA46BF0051F533 /* RMRadioView.swift */,
+				88C983B21BDA46CB0051F533 /* RMRadioView.xib */,
+			);
+			name = RadioView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8870A5911BDA3DC100C2BE1A /* LaunchScreen.storyboard in Resources */,
+				88C983B31BDA46CB0051F533 /* RMRadioView.xib in Resources */,
 				8870A58E1BDA3DC100C2BE1A /* Assets.xcassets in Resources */,
 				8870A5891BDA3DC100C2BE1A /* Main.storyboard in Resources */,
 			);
@@ -335,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8870A58C1BDA3DC100C2BE1A /* RadioMix.xcdatamodeld in Sources */,
+				88C983B11BDA46BF0051F533 /* RMRadioView.swift in Sources */,
 				8870A5861BDA3DC100C2BE1A /* ViewController.swift in Sources */,
 				8870A5841BDA3DC100C2BE1A /* AppDelegate.swift in Sources */,
 			);
