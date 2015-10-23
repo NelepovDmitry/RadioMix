@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2220F86DD41D46F7E1DE83 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FC496A92378268C6DCCC0A /* libPods.a */; };
+		8870A5841BDA3DC100C2BE1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A5831BDA3DC100C2BE1A /* AppDelegate.swift */; };
+		8870A5861BDA3DC100C2BE1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A5851BDA3DC100C2BE1A /* ViewController.swift */; };
+		8870A5891BDA3DC100C2BE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8870A5871BDA3DC100C2BE1A /* Main.storyboard */; };
+		8870A58C1BDA3DC100C2BE1A /* RadioMix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8870A58A1BDA3DC100C2BE1A /* RadioMix.xcdatamodeld */; };
+		8870A58E1BDA3DC100C2BE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8870A58D1BDA3DC100C2BE1A /* Assets.xcassets */; };
+		8870A5911BDA3DC100C2BE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8870A58F1BDA3DC100C2BE1A /* LaunchScreen.storyboard */; };
+		8870A59C1BDA3DC100C2BE1A /* RadioMixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A59B1BDA3DC100C2BE1A /* RadioMixTests.swift */; };
+		8870A5A71BDA3DC100C2BE1A /* RadioMixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8870A5A61BDA3DC100C2BE1A /* RadioMixUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8870A5981BDA3DC100C2BE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8870A5781BDA3DC100C2BE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8870A57F1BDA3DC100C2BE1A;
+			remoteInfo = RadioMix;
+		};
+		8870A5A31BDA3DC100C2BE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8870A5781BDA3DC100C2BE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8870A57F1BDA3DC100C2BE1A;
+			remoteInfo = RadioMix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27FC496A92378268C6DCCC0A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B175CD23004FE329868782 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8870A5801BDA3DC100C2BE1A /* RadioMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8870A5831BDA3DC100C2BE1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8870A5851BDA3DC100C2BE1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8870A5881BDA3DC100C2BE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8870A58B1BDA3DC100C2BE1A /* RadioMix.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RadioMix.xcdatamodel; sourceTree = "<group>"; };
+		8870A58D1BDA3DC100C2BE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8870A5901BDA3DC100C2BE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8870A5921BDA3DC100C2BE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8870A5971BDA3DC100C2BE1A /* RadioMixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioMixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8870A59B1BDA3DC100C2BE1A /* RadioMixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioMixTests.swift; sourceTree = "<group>"; };
+		8870A59D1BDA3DC100C2BE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8870A5A21BDA3DC100C2BE1A /* RadioMixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioMixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8870A5A61BDA3DC100C2BE1A /* RadioMixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioMixUITests.swift; sourceTree = "<group>"; };
+		8870A5A81BDA3DC100C2BE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC686409DCD9C73B191B07D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8870A57D1BDA3DC100C2BE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2220F86DD41D46F7E1DE83 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8870A5941BDA3DC100C2BE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8870A59F1BDA3DC100C2BE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC586478CAB7B902A5B9F19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27FC496A92378268C6DCCC0A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C344758968EB3D0EA11B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC686409DCD9C73B191B07D /* Pods.debug.xcconfig */,
+				63B175CD23004FE329868782 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8870A5771BDA3DC100C2BE1A = {
+			isa = PBXGroup;
+			children = (
+				8870A5821BDA3DC100C2BE1A /* RadioMix */,
+				8870A59A1BDA3DC100C2BE1A /* RadioMixTests */,
+				8870A5A51BDA3DC100C2BE1A /* RadioMixUITests */,
+				8870A5811BDA3DC100C2BE1A /* Products */,
+				86C344758968EB3D0EA11B83 /* Pods */,
+				7FC586478CAB7B902A5B9F19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8870A5811BDA3DC100C2BE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8870A5801BDA3DC100C2BE1A /* RadioMix.app */,
+				8870A5971BDA3DC100C2BE1A /* RadioMixTests.xctest */,
+				8870A5A21BDA3DC100C2BE1A /* RadioMixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8870A5821BDA3DC100C2BE1A /* RadioMix */ = {
+			isa = PBXGroup;
+			children = (
+				8870A5831BDA3DC100C2BE1A /* AppDelegate.swift */,
+				8870A5851BDA3DC100C2BE1A /* ViewController.swift */,
+				8870A5871BDA3DC100C2BE1A /* Main.storyboard */,
+				8870A58D1BDA3DC100C2BE1A /* Assets.xcassets */,
+				8870A58F1BDA3DC100C2BE1A /* LaunchScreen.storyboard */,
+				8870A5921BDA3DC100C2BE1A /* Info.plist */,
+				8870A58A1BDA3DC100C2BE1A /* RadioMix.xcdatamodeld */,
+			);
+			path = RadioMix;
+			sourceTree = "<group>";
+		};
+		8870A59A1BDA3DC100C2BE1A /* RadioMixTests */ = {
+			isa = PBXGroup;
+			children = (
+				8870A59B1BDA3DC100C2BE1A /* RadioMixTests.swift */,
+				8870A59D1BDA3DC100C2BE1A /* Info.plist */,
+			);
+			path = RadioMixTests;
+			sourceTree = "<group>";
+		};
+		8870A5A51BDA3DC100C2BE1A /* RadioMixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8870A5A61BDA3DC100C2BE1A /* RadioMixUITests.swift */,
+				8870A5A81BDA3DC100C2BE1A /* Info.plist */,
+			);
+			path = RadioMixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8870A57F1BDA3DC100C2BE1A /* RadioMix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8870A5AB1BDA3DC100C2BE1A /* Build configuration list for PBXNativeTarget "RadioMix" */;
+			buildPhases = (
+				95477AD7493EC648CEADA33E /* Check Pods Manifest.lock */,
+				8870A57C1BDA3DC100C2BE1A /* Sources */,
+				8870A57D1BDA3DC100C2BE1A /* Frameworks */,
+				8870A57E1BDA3DC100C2BE1A /* Resources */,
+				1E040CC5E78C8716CC3A4351 /* Embed Pods Frameworks */,
+				371836CC8E5CAE5CF2A7DE45 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioMix;
+			productName = RadioMix;
+			productReference = 8870A5801BDA3DC100C2BE1A /* RadioMix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8870A5961BDA3DC100C2BE1A /* RadioMixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8870A5AE1BDA3DC100C2BE1A /* Build configuration list for PBXNativeTarget "RadioMixTests" */;
+			buildPhases = (
+				8870A5931BDA3DC100C2BE1A /* Sources */,
+				8870A5941BDA3DC100C2BE1A /* Frameworks */,
+				8870A5951BDA3DC100C2BE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8870A5991BDA3DC100C2BE1A /* PBXTargetDependency */,
+			);
+			name = RadioMixTests;
+			productName = RadioMixTests;
+			productReference = 8870A5971BDA3DC100C2BE1A /* RadioMixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8870A5A11BDA3DC100C2BE1A /* RadioMixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8870A5B11BDA3DC100C2BE1A /* Build configuration list for PBXNativeTarget "RadioMixUITests" */;
+			buildPhases = (
+				8870A59E1BDA3DC100C2BE1A /* Sources */,
+				8870A59F1BDA3DC100C2BE1A /* Frameworks */,
+				8870A5A01BDA3DC100C2BE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8870A5A41BDA3DC100C2BE1A /* PBXTargetDependency */,
+			);
+			name = RadioMixUITests;
+			productName = RadioMixUITests;
+			productReference = 8870A5A21BDA3DC100C2BE1A /* RadioMixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8870A5781BDA3DC100C2BE1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RM;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nelepova Inna";
+				TargetAttributes = {
+					8870A57F1BDA3DC100C2BE1A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8870A5961BDA3DC100C2BE1A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8870A57F1BDA3DC100C2BE1A;
+					};
+					8870A5A11BDA3DC100C2BE1A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8870A57F1BDA3DC100C2BE1A;
+					};
+				};
+			};
+			buildConfigurationList = 8870A57B1BDA3DC100C2BE1A /* Build configuration list for PBXProject "RadioMix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8870A5771BDA3DC100C2BE1A;
+			productRefGroup = 8870A5811BDA3DC100C2BE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8870A57F1BDA3DC100C2BE1A /* RadioMix */,
+				8870A5961BDA3DC100C2BE1A /* RadioMixTests */,
+				8870A5A11BDA3DC100C2BE1A /* RadioMixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8870A57E1BDA3DC100C2BE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8870A5911BDA3DC100C2BE1A /* LaunchScreen.storyboard in Resources */,
+				8870A58E1BDA3DC100C2BE1A /* Assets.xcassets in Resources */,
+				8870A5891BDA3DC100C2BE1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8870A5951BDA3DC100C2BE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8870A5A01BDA3DC100C2BE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E040CC5E78C8716CC3A4351 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		371836CC8E5CAE5CF2A7DE45 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95477AD7493EC648CEADA33E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8870A57C1BDA3DC100C2BE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8870A58C1BDA3DC100C2BE1A /* RadioMix.xcdatamodeld in Sources */,
+				8870A5861BDA3DC100C2BE1A /* ViewController.swift in Sources */,
+				8870A5841BDA3DC100C2BE1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8870A5931BDA3DC100C2BE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8870A59C1BDA3DC100C2BE1A /* RadioMixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8870A59E1BDA3DC100C2BE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8870A5A71BDA3DC100C2BE1A /* RadioMixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8870A5991BDA3DC100C2BE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8870A57F1BDA3DC100C2BE1A /* RadioMix */;
+			targetProxy = 8870A5981BDA3DC100C2BE1A /* PBXContainerItemProxy */;
+		};
+		8870A5A41BDA3DC100C2BE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8870A57F1BDA3DC100C2BE1A /* RadioMix */;
+			targetProxy = 8870A5A31BDA3DC100C2BE1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8870A5871BDA3DC100C2BE1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8870A5881BDA3DC100C2BE1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8870A58F1BDA3DC100C2BE1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8870A5901BDA3DC100C2BE1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8870A5A91BDA3DC100C2BE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8870A5AA1BDA3DC100C2BE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8870A5AC1BDA3DC100C2BE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC686409DCD9C73B191B07D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadioMix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nelepova-inna.RadioMix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8870A5AD1BDA3DC100C2BE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B175CD23004FE329868782 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RadioMix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nelepova-inna.RadioMix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8870A5AF1BDA3DC100C2BE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadioMixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nelepova-inna.RadioMixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioMix.app/RadioMix";
+			};
+			name = Debug;
+		};
+		8870A5B01BDA3DC100C2BE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RadioMixTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nelepova-inna.RadioMixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioMix.app/RadioMix";
+			};
+			name = Release;
+		};
+		8870A5B21BDA3DC100C2BE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadioMixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nelepova-inna.RadioMixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RadioMix;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8870A5B31BDA3DC100C2BE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RadioMixUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nelepova-inna.RadioMixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RadioMix;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8870A57B1BDA3DC100C2BE1A /* Build configuration list for PBXProject "RadioMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8870A5A91BDA3DC100C2BE1A /* Debug */,
+				8870A5AA1BDA3DC100C2BE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8870A5AB1BDA3DC100C2BE1A /* Build configuration list for PBXNativeTarget "RadioMix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8870A5AC1BDA3DC100C2BE1A /* Debug */,
+				8870A5AD1BDA3DC100C2BE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8870A5AE1BDA3DC100C2BE1A /* Build configuration list for PBXNativeTarget "RadioMixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8870A5AF1BDA3DC100C2BE1A /* Debug */,
+				8870A5B01BDA3DC100C2BE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8870A5B11BDA3DC100C2BE1A /* Build configuration list for PBXNativeTarget "RadioMixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8870A5B21BDA3DC100C2BE1A /* Debug */,
+				8870A5B31BDA3DC100C2BE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8870A58A1BDA3DC100C2BE1A /* RadioMix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8870A58B1BDA3DC100C2BE1A /* RadioMix.xcdatamodel */,
+			);
+			currentVersion = 8870A58B1BDA3DC100C2BE1A /* RadioMix.xcdatamodel */;
+			path = RadioMix.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8870A5781BDA3DC100C2BE1A /* Project object */;
+}

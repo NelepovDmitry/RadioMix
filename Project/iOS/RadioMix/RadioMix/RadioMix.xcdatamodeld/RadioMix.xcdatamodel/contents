@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="RMCategories" representedClassName="RMCategories" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="channels" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RMRadioChannels" inverseName="category" inverseEntity="RMRadioChannels" syncable="YES"/>
+    </entity>
+    <entity name="RMCountry" representedClassName="RMCountry" syncable="YES"/>
+    <entity name="RMRadio" representedClassName="RMRadio" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="channels" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RMRadioChannels" inverseName="radio" inverseEntity="RMRadioChannels" syncable="YES"/>
+    </entity>
+    <entity name="RMRadioChannels" representedClassName="RMRadioChannels" syncable="YES">
+        <attribute name="freqFM" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RMCategories" inverseName="channels" inverseEntity="RMCategories" syncable="YES"/>
+        <relationship name="radio" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RMRadio" inverseName="channels" inverseEntity="RMRadio" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RMRadio" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="RMRadioChannels" positionX="-54" positionY="0" width="128" height="105"/>
+        <element name="RMCategories" positionX="-27" positionY="27" width="128" height="75"/>
+        <element name="RMCountry" positionX="-18" positionY="63" width="128" height="45"/>
+    </elements>
+</model>
