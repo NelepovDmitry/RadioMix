@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRx-gt-Vgl" customClass="RMRadioView" customModule="RadioMix" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WRx-gt-Vgl">
                                 <rect key="frame" x="0.0" y="20" width="600" height="128"/>
                                 <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,6 +45,9 @@
                             <constraint firstItem="WRx-gt-Vgl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ruG-2l-eSo"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="radioView" destination="WRx-gt-Vgl" id="aZJ-Sw-b02"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "MonteCarlo",
+	"icon" : "radio_monte_carlo.jpg",
+        "channels": [
+            {
+                "category": {
+                    "name": "Music"
+                },
+                "freqFM": 102,
+                "name": "Main"
+            }
+        ]
+    }
+]
